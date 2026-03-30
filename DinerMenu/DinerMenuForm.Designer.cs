@@ -1,6 +1,6 @@
 ﻿namespace DinerMenu
 {
-    partial class Form1
+    partial class DinerMenuForm
     {
         /// <summary>
         ///  Required designer variable.
