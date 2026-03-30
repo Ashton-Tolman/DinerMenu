@@ -84,7 +84,7 @@
             // 
             DinerTopLabel.AutoSize = true;
             DinerTopLabel.Font = new Font("Stencil", 16F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
-            DinerTopLabel.Location = new Point(175, 9);
+            DinerTopLabel.Location = new Point(205, 9);
             DinerTopLabel.Name = "DinerTopLabel";
             DinerTopLabel.Size = new Size(379, 38);
             DinerTopLabel.TabIndex = 4;
@@ -93,11 +93,13 @@
             // DinerSpecialsLabel
             // 
             DinerSpecialsLabel.AutoSize = true;
-            DinerSpecialsLabel.Location = new Point(305, 66);
+            DinerSpecialsLabel.Font = new Font("Segoe Script", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            DinerSpecialsLabel.Location = new Point(56, 76);
             DinerSpecialsLabel.Name = "DinerSpecialsLabel";
-            DinerSpecialsLabel.Size = new Size(117, 25);
+            DinerSpecialsLabel.Size = new Size(224, 44);
             DinerSpecialsLabel.TabIndex = 5;
             DinerSpecialsLabel.Text = "DinerSpecials";
+            DinerSpecialsLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // DinerMenuForm
             // 
@@ -111,6 +113,7 @@
             Controls.Add(SoupButton);
             Controls.Add(SaladButton);
             Name = "DinerMenuForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Robo cop's Diner Menu";
             ResumeLayout(false);
             PerformLayout();
